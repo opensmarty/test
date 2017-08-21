@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A packaged js&css for testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensmarty/test.git"
+  },
+  "author": "opensmarty",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "grunt": "^1.0.1",
+    "jquery": "^3.2.1",
+    "less": "^2.7.2"
+  }
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Test</title>
+    <meta name="description" content="boostrap框架测试">
+    <meta name="keywords" content="boostrap,框架,测试">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 可选的Bootstrap主题文件（一般不使用） -->
+    <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- row1 -->
+        <div class="row">
+            <div class="col-*-*">
+                <h1>测试一</h1>
+                <h1 class="small">测试二</h1>
+            </div>
+            <div class="col-*-*">
+                <p class="text-left">向左对齐文本</p>
+                <p class="text-center">居中对齐文本</p>
+                <p class="text-right">向右对齐文本</p>
+                <p class="text-muted">本行内容是减弱的</p>
+                <p class="text-primary">本行内容带有一个 primary class</p>
+                <p class="text-success">本行内容带有一个 success class</p>
+                <p class="text-info">本行内容带有一个 info class</p>
+                <p class="text-warning">本行内容带有一个 warning class</p>
+                <p class="text-danger">本行内容带有一个 danger class</p>
+                <p class="text-uppercase">hello world</p>
+            </div>
+        </div>
+        <!-- row1 end -->
+        <!-- row2 -->
+        <div class="row">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="name">姓名</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" placeholder="请输入名称">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="inputfile">文件输入</label>
+                    <div class="col-sm-10">
+                        <input type="file" id="inputfile">
+                    </div>
+                    <p class="help-block">这里是块级帮助文本的实例。</p>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">请记住我
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">内联的复选框和单选按钮的实例</label>
+                    <div class="col-sm-10">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="inlineCheckbox1" value="option1"> 选项 1
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="inlineCheckbox2" value="option2"> 选项 2
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="optionsRadiosinline" id="optionsRadios3" value="option1" checked> 选项 1
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="optionsRadiosinline" id="optionsRadios4" value="option2"> 选项 2
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="selectOptions">选择列表</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" name="selectOptions">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">聚焦</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="focusedInput" type="text" value="该输入框获得焦点...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="col-sm-2 control-label">禁用</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="disabledInput" type="text" placeholder="该输入框禁止输入..." disabled>
+                    </div>
+                </div>
+                <fieldset disabled>
+                    <div class="form-group">
+                        <label for="disabledTextInput" class="col-sm-2 control-label">禁用输入（Fieldset disabled）</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="禁止输入">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="disabledSelect" class="col-sm-2 control-label">禁用选择菜单（Fieldset disabled）</label>
+                        <div class="col-sm-10">
+                            <select id="disabledSelect" class="form-control">
+                                <option>禁止选择</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="form-group has-success">
+                    <label class="col-sm-2 control-label" for="inputSuccess">输入成功</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputSuccess">
+                    </div>
+                </div>
+                <div class="form-group has-warning">
+                    <label class="col-sm-2 control-label" for="inputWarning">输入警告</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputWarning">
+                    </div>
+                </div>
+                <div class="form-group has-error">
+                    <label class="col-sm-2 control-label" for="inputError">输入错误</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputError">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-3">
+                        <input type="text" name="inputCol3" id="inputCol3" class="form-control" placeholder=".col-sm-3">
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="inputCol4" id="inputCol4" class="form-control" placeholder=".col-sm-4">
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" name="inputCol5" id="inputCol5" class="form-control" placeholder=".col-sm-5">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">登录</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- row2 end -->
+        <!-- row3 -->
+        <div id="row">
+            <form role="form">
+                <span>帮助文本实例</span>
+                <input class="form-control" type="text" placeholder="">
+                <span class="help-block">一个较长的帮助文本块，超过一行，
+  需要扩展到下一行。本实例中的帮助文本总共有两行。</span>
+            </form>
+        </div>
+        <!-- row4 end -->
+    </div>
+</body>
+
+</html>

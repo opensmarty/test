@@ -1,0 +1,221 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"h1\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ip",
+		"selected_items":
+		[
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"ConvertToUTF8",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"sass",
+				"Build With: SASS"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Alignment",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/opensmarty/www/test/node_modules/bootstrap/dist/css/bootstrap.css",
+		"/home/opensmarty/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/opensmarty/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/opensmarty/www/test/src/public/html/index.html",
+		"/home/opensmarty/www/test/READED.md",
+		"/home/opensmarty/www/test/node_modules/jquery/dist/core.js",
+		"/home/opensmarty/www/test/src/public/css/style.scss",
+		"/home/opensmarty/www/test/src/public/css/a",
+		"/home/opensmarty/www/test/src/public/css/style.css",
+		"/home/opensmarty/www/test/package-lock.json",
+		"/home/opensmarty/www/test/index.php",
+		"/home/opensmarty/sublime-text-imfix/src/sublime-imfix.c",
+		"/home/opensmarty/sublime-text-imfix/src/subl",
+		"/home/opensmarty/.config/sublime-text-3/Packages/Terminal/Base File.sublime-settings",
+		"/home/opensmarty/soft/elasticsearch/config/elasticsearch.yml",
+		"/home/opensmarty/soft/elasticsearch/plugins/ik/config/IKAnalyzer.cfg.xml"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/SASS Build/SASS.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
