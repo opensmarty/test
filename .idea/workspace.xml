@@ -3073,8 +3073,8 @@
       <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/public/static/script/core/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+            <state relative-caret-position="335">
+              <caret line="37" column="112" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -3104,21 +3104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/public/static/script/core/demo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="system.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/public/static/script/core/system.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+            <state relative-caret-position="551">
+              <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -3145,7 +3135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;App\Models\User&quot;</find>
       <find>&quot;App\Models\User</find>
       <find>App\Models\User</find>
       <find>App|</find>
@@ -3174,6 +3163,7 @@
       <find>isExtensib</find>
       <find>isArra</find>
       <find>\/\*\*\n \* Created a system class for execution\.\n \*\n \* \@package system\n \* \@authors opensmarty \(opensmarty\@163\.com\)\n \* \@github  https\:\/\/github\.com\/opensmarty\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\n\n\/\/ create a abstract class as supper class\.\nfunction AbstractClass\(\) \{\n\n\}\n\nAbstractClass\.prototype \= \{\n    constructor\: AbstractClass\,\n    type\: \'abstract\'\,\n    demo\: function \(\) \{\n        return \'demo\'\;\n    \}\,\n    doSomething\: function \(\) \{\n        \/\/return \&quot;This is a AbstractClass\'s function method for testing\.\&quot;\n        return  \'ok\'\;\n    \}\n\}\;\n\n\/\/ create a sys class for executing everything\.\n\/\/ var System \= function \(\) \{\n\/\/     this\.name \= arguments\[\'0\'\]\.name\;\n\/\/     this\.type \= arguments\[\'0\'\]\.type\;\n\/\/     this\.data \= arguments\[\'0\'\]\.data\;\n\/\/\n\/\/     \/\/ this\.initialize \= function \(\) \{\n\/\/     \/\/     return \'init\'\;\n\/\/     \/\/     \/\/ super\.initialize\(\)\;\n\/\/     \/\/ \}\n\/\/\n\/\/     this\.execute \= function \(\) \{\n\/\/         this\.beforeExecute\(\)\;\n\/\/         this\.doExecute\(\)\;\n\/\/         this\.afterExecute\(\)\;\n\/\/     \}\n\/\/\n\/\/     this\.beforeExecute \= function \(\) \{\n\/\/         return 1\;\n\/\/     \}\n\/\/\n\/\/     this\.doExecute \= function \(\) \{\n\/\/         return 2\;\n\/\/     \}\n\/\/\n\/\/     this\.afterExecute \= function \(\) \{\n\/\/          return 3\;\n\/\/     \}\n\/\/\n\/\/     \/\/\　系统返回\n\/\/     this\.doSomething \= function \(\) \{\n\/\/         \/\/this\.initialize\(\)\;\n\/\/         console\.info\(\&quot;subclass\'s function method with the sucessfull return\!\&quot;\)\;\n\/\/     \}\n\/\/ \}\n\nvar Application \= function \(\) \{\n\n\}\n\nvar Application \= \{\n    run \: function \(\) \{\n        return \'System is running\.\'\;\n    \}\,\n    doSomething \: function \(\) \{\n        \/\/return \&quot;This is a AbstractClass\'s function method for testing\.\&quot;\n        return  \'ok\'\;\n    \}\n\}\;\n\n\n\n\n\nApplication\.prototype \= Object\.create\(AbstractClass\.prototype\)\;\nApplication\.prototype\.constructor \= Application\;\n\n\n\/\/var sys \= new System\(\{\'name\'\: \'sys001\'\, type\: \'sys\'\, data\: \[\]\}\)\;\n\n\(function \(\) \{\n    \/\/ 系统开始运行时间\n    console\.time\(\'system\'\)\;\n\n    \/\/ var abstractClass \= new AbstractClass\(\)\;\n    \/\/ console\.info\(abstractClass\.initialize\(\)\)\;\n    \/\/ console\.info\(System\.prototype\.initialize\(\)\)\;\n    \/\/ console\.info\(AbstractClass\.prototype\.doSomething\(\)\)\;\n\n    System\.execute\(\)\;\n    \/\/ 系统结束运行时间\n    console\.timeEnd\(\'system\'\)\;\n\}\)\(\)\n</find>
+      <find>\/\*\*\n \* Created a system class for execution\.\n \*\n \* \@package system\n \* \@authors opensmarty \(opensmarty\@163\.com\)\n \* \@github  https\:\/\/github\.com\/opensmarty\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\n\/\/ create a construct function for the system\.\nfunction Engine\(\) \{\n\}\n\n\/\/ create a useful prototype of Engine as supper class\.\nEngine\.prototype \= \{\n    constructor\: Engine\,\n    name\: \'起源引擎\'\,\n    type\: \'engine\'\,\n    description\: \'System Service\'\,\n    execute\: function \(\) \{\n        this\.beforeExecute\(\)\;\n        this\.doExecute\(\)\;\n        this\.afterExecute\(\)\;\n        this\.doSomething\(\)\;\n    \}\,\n    beforeExecute\: function \(\) \{\n        console\.log\(\'beforeExe\'\)\;\n    \}\,\n    doExecute \: function \(\) \{\n        console\.log\(\'doExe\'\)\;\n    \}\,\n    afterExecute \: function \(\) \{\n        console\.log\(\'afterExe\'\)\;\n    \}\,\n    extra \: function \(\) \{\n        \n    \}\,\n    doSomething \: function \(\) \{\n        return \&quot;This is a \&quot; \+ this\.description \+ \&quot; for us to do something\.\&quot;\;\n    \}\n\}\;\n\n\/\/ create a System for executing everything\.\nvar System \= function \(\) \{\n    \/\/ 系统名称\n    this\.name \= \'欧鹏斯玛特系统\'\;\n    \/\/ 系统运行数据\n    this\.data \= arguments\;\n\n    this\.initialize \= function \(\) \{\n        console\.log\(\'Initialize system\'\)\;\n    \}\n\n    \/\/ 系统启动器\n    this\.enableLauncher \= function \(\) \{\n        this\.initialize\(\)\;\n        this\.execute\(\)\;\n        return JSON\.stringify\(this\.data\)\;\n    \}\n\}\n\n\/\/ System\.prototype \= Object\.create\(Engine\.prototype\)\;\nSystem\.prototype \= Engine\.prototype\;\nSystem\.prototype\.constructor \= System\;\nSystem\.prototype\.extra \= function \(\) \{\n\n\}\n\n\/\/ create a Application and run it\.\nvar Application \= \{\n    name\: \'应用系统\'\,\n    type\: \'app\'\,\n    run\: function \(\) \{\n        var SystemInstance \= new System\(\)\;\n        SystemInstance\.enableLauncher\(\)\;\n    \}\n\}\;\n\n\/\/ 系统运行模块\n\(function \(\) \{\n    \/\/ 系统开始运行时间\n    console\.time\(\'system\'\)\;\n\n    \/\/ 系统测试\.\n    console\.info\(Object\.getOwnPropertyNames\(System\)\)\;\n\n    \/\/ 应用系统运行\n    Application\.run\(\)\;\n\n    \/\/ 系统结束运行时间\n    console\.timeEnd\(\'system\'\)\;\n\}\)\(\)\n</find>
       <find>initialize</find>
     </findStrings>
     <replaceStrings>
@@ -3589,12 +3579,12 @@
       <workItem from="1503130338663" duration="12000" />
       <workItem from="1503247485941" duration="6602000" />
       <workItem from="1503291883569" duration="45142000" />
-      <workItem from="1503379529794" duration="17836000" />
+      <workItem from="1503379529794" duration="22360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158971000" />
+    <option name="totallyTimeSpent" value="163495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3947,24 +3937,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/public/static/script/core/function.js" />
-    <entry file="file://$PROJECT_DIR$/src/public/static/script/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/static/script/core/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -3999,18 +3971,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/static/script/core/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2154">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/static/script/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/public/static/script/core/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        <state relative-caret-position="335">
+          <caret line="37" column="112" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="112" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/public/static/script/core/system.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        <state relative-caret-position="551">
+          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
           <folding />
         </state>
       </provider>
