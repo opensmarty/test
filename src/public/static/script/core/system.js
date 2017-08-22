@@ -12,7 +12,7 @@
 function Engine() {
 }
 
-// create a useful prototype of system as supper class.
+// create a useful prototype of Engine as supper class.
 Engine.prototype = {
     constructor: Engine,
     name: '起源引擎',
@@ -38,7 +38,7 @@ Engine.prototype = {
     }
 };
 
-// create a application for executing everything.
+// create a System for executing everything.
 var System = function () {
     // 系统名称
     this.name = '欧鹏斯玛特系统';
@@ -63,6 +63,7 @@ System.prototype.demo = function () {
 
 }
 
+// create a Application and run it.
 var Application = {
     name: '应用系统',
     type: 'app',
