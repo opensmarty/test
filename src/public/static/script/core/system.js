@@ -7,6 +7,10 @@
  * @date    2017-08-20 23:23:38
  * @version v1.0.0
  */
+var Config = {};
+Config.environment = {};
+Config.environment.development = false;
+Config.environment.production = !Config.environment.development;
 
 // create a construct function for the system.
 function Engine() {
@@ -25,19 +29,27 @@ Engine.prototype = {
         this.doSomething();
     },
     beforeExecute: function () {
-        console.log('beforeExe');
+        if (Config.environment.development) {
+            console.log('beforeExe');
+        }
     },
     doExecute: function () {
-        console.log('doExe');
+        if (Config.environment.development) {
+            console.log('doExe');
+        }
     },
     afterExecute: function () {
-        console.log('afterExe');
+        if (Config.environment.development) {
+            console.log('afterExe');
+        }
     },
     extra: function () {
 
     },
     doSomething: function () {
-        return "This is a " + this.description + " for us to do something.";
+        if (Config.environment.development) {
+            console.log("This is a " + this.description + " for us to do something.");
+        }
     }
 };
 
@@ -48,7 +60,9 @@ var System = function () {
 
     // 初始化系统参数
     this.initialize = function () {
-        console.log('Initialize system');
+        if (Config.environment.development) {
+            console.log('Initialize system');
+        }
     }
 
     // 系统启动器
@@ -70,7 +84,9 @@ System.prototype.extra = function () {
     // 附加函数,用于扩展系统其他功能,选择函数或JSON格式对象操作
 }
 System.prototype.doSomething = function () {
-    console.log("This is a " + this.description + " for us to do something.");
+    if (Config.environment.development) {
+        console.log("This is a " + this.description + " for us to do something.");
+    }
 }
 
 // create a Application and run it.
@@ -79,15 +95,26 @@ var Application = {
     type: 'app',
     description: 'Application Service',
     run: function () {
-        var data = {"success": false, "data": [], "code": 100001, "type": "application/json", "message": "System error | 系统错误"};
+        var data = {
+            "success": false,
+            "data": [],
+            "code": 100001,
+            "type": "application/json",
+            "message": "System error | 系统错误"
+        };
         var SystemInstance = new System(data);
-        console.log(SystemInstance.enableLauncher());
+        var ResponseResult = SystemInstance.enableLauncher();
+        if(Config.environment.development){
+            console.log(ResponseResult);
+        }
     },
     extra: function () {
 
     },
-    doSomething : function () {
-        console.log("This is a " + this.description + " for us to do something.");
+    doSomething: function () {
+        if (Config.environment.development) {
+            console.log("This is a " + this.description + " for us to do something.");
+        }
     }
 };
 
