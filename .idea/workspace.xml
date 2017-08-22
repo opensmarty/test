@@ -3033,7 +3033,7 @@
       <file leaf-file-name="EcmaScript.js" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17727">
+            <state relative-caret-position="306">
               <caret line="933" column="5" lean-forward="false" selection-start-line="933" selection-start-column="0" selection-end-line="933" selection-end-column="5" />
               <folding />
             </state>
@@ -3043,8 +3043,8 @@
       <file leaf-file-name="DHTML.js" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="1364" column="3" lean-forward="true" selection-start-line="1364" selection-start-column="3" selection-end-line="1364" selection-end-column="3" />
+            <state relative-caret-position="25916">
+              <caret line="1364" column="3" lean-forward="false" selection-start-line="1364" selection-start-column="3" selection-end-line="1364" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -3053,8 +3053,8 @@
       <file leaf-file-name="EcmaScript6.js" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="362" column="15" lean-forward="false" selection-start-line="362" selection-start-column="6" selection-end-line="362" selection-end-column="15" />
+            <state relative-caret-position="247">
+              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -3063,18 +3063,18 @@
       <file leaf-file-name="EcmaScript5.js" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3838">
-              <caret line="202" column="16" lean-forward="false" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="101" column="12" lean-forward="false" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/public/static/script/core/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1057">
-              <caret line="91" column="12" lean-forward="false" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="12" />
+            <state relative-caret-position="1539">
+              <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -3114,11 +3114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="system.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="system.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/public/static/script/core/system.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="668">
+              <caret line="85" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -3145,12 +3145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>App\MUser</find>
-      <find>App\MoUser</find>
-      <find>App\ModUser</find>
-      <find>App\ModeUser</find>
-      <find>App\ModelUser</find>
-      <find>App\ModelsUser</find>
       <find>&quot;App\Models\User&quot;</find>
       <find>&quot;App\Models\User</find>
       <find>App\Models\User</find>
@@ -3175,6 +3169,12 @@
       <find>\/\*\*\n \* Created a base class for this system\.\n \*\n \* \@package base\n \* \@authors opensmarty \(opensmarty\@\n \* \@github  https\:\/\/github\.com\/opensmarty\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\nvar o \= null\;\nif \(o \!\=\= null\) \{\n    o \= null\;\n\}\n\nfunction cmd\(o\) \{\n    console\.log\(o\)\;\n\}\n\ncmd\(\'Welcome to use javascript\\\'s application for everyone\！\\n\'\)\;\n\n\n\/\*\n \* 返回信息格式\　\{success\:true\|false\, data\:\[\]\|\{\} \[\, \&quot;code\&quot;\:\, type\:\, \&quot;message\&quot;\:\]\}\n \*\n \*  统一格式\：A\-BB\-CCC\n \* A\:错误级别\，如1代表系统级错误\，2代表服务级错误\；\n \* B\:项目或模块名称\，一般公司不会超过99个项目\；\n \* C\:具体错误编号\，自增即可\，一个项目999种错误应该够用\；\n \*\/\nvar statusWithSys \= \[\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 100001\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;System error \| 系统错误\&quot;\}\,\n    \{\&quot;success\&quot;\: true\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 101200\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;Success\｜请求成功\&quot;\}\,\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 101400\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;Client Error \| 请求错误\&quot;\}\,\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 101401\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot; \| 操作未授权\&quot;\}\,\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 101501\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;Server Error \| 服务器错误 \&quot;\}\,\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 200001\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;Login Error \| 登录失败\&quot;\}\n\]\;\n\n\nfunction output\(\) \{\n    var message \= \'\'\;\n    var code \= 101501\;\n    var hasCode \= false\;\n    if \(arguments\.length \&gt; 0\) \{\n        code \= arguments\[0\]\[\&quot;code\&quot;\]\;\n        for\(index in  statusWithSys\) \{\n          if\(statusWithSys\[index\]\[\&quot;code\&quot;\] \=\= code\)\{\n                cmd\(\&quot;code\:\&quot; \+ code \+ \'\\n\' \+ statusWithSys\[index\]\[\'message\'\]\)\;\n                hasCode \= true\;\n          \}\n        \}\n\n        if\(\!hasCode\) \{\n            message \= \&quot;没信息\，自定义用户错误\&quot;\;\n        \}\n    \}\n\}\n\n\/\/ 系统默认root全局变量\nvar root \= typeof self \=\= \'object\' \&amp;\&amp; self\.self \=\=\= self \&amp;\&amp; self \|\| typeof global \=\= \'object\' \&amp;\&amp; global\.global \=\=\= global \&amp;\&amp; global \|\| this\;\n\n\/\/ 检测系统环境变量\nfunction checkSystemEnvironment\(\) \{\n\n\}\n\n\/\/ 是否是浏览器端\nfunction isServer\(\) \{\n    return \!isBrowser\(\)\;\n\}\n\nfunction isBrowser\(\) \{\n    var flag \= false\;\n    if \(typeof window \!\=\= \&quot;undefined\&quot; \&amp;\&amp; root \=\=\= window\) \{\n        flag \= true\;\n    \}\n\n    return flag\n\}\n\nif\(isServer\(\)\) \{\n    output\(\{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 100001\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;System error \| 系统错误\&quot;\}\)\;\n\}\n\n\nfunction response\(\) \{\n\n\}</find>
       <find>output</find>
       <find>cmd</find>
+      <find>isExtensible</find>
+      <find>isExtensibl</find>
+      <find>isExtensib</find>
+      <find>isArra</find>
+      <find>\/\*\*\n \* Created a system class for execution\.\n \*\n \* \@package system\n \* \@authors opensmarty \(opensmarty\@163\.com\)\n \* \@github  https\:\/\/github\.com\/opensmarty\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\n\n\/\/ create a abstract class as supper class\.\nfunction AbstractClass\(\) \{\n\n\}\n\nAbstractClass\.prototype \= \{\n    constructor\: AbstractClass\,\n    type\: \'abstract\'\,\n    demo\: function \(\) \{\n        return \'demo\'\;\n    \}\,\n    doSomething\: function \(\) \{\n        \/\/return \&quot;This is a AbstractClass\'s function method for testing\.\&quot;\n        return  \'ok\'\;\n    \}\n\}\;\n\n\/\/ create a sys class for executing everything\.\n\/\/ var System \= function \(\) \{\n\/\/     this\.name \= arguments\[\'0\'\]\.name\;\n\/\/     this\.type \= arguments\[\'0\'\]\.type\;\n\/\/     this\.data \= arguments\[\'0\'\]\.data\;\n\/\/\n\/\/     \/\/ this\.initialize \= function \(\) \{\n\/\/     \/\/     return \'init\'\;\n\/\/     \/\/     \/\/ super\.initialize\(\)\;\n\/\/     \/\/ \}\n\/\/\n\/\/     this\.execute \= function \(\) \{\n\/\/         this\.beforeExecute\(\)\;\n\/\/         this\.doExecute\(\)\;\n\/\/         this\.afterExecute\(\)\;\n\/\/     \}\n\/\/\n\/\/     this\.beforeExecute \= function \(\) \{\n\/\/         return 1\;\n\/\/     \}\n\/\/\n\/\/     this\.doExecute \= function \(\) \{\n\/\/         return 2\;\n\/\/     \}\n\/\/\n\/\/     this\.afterExecute \= function \(\) \{\n\/\/          return 3\;\n\/\/     \}\n\/\/\n\/\/     \/\/\　系统返回\n\/\/     this\.doSomething \= function \(\) \{\n\/\/         \/\/this\.initialize\(\)\;\n\/\/         console\.info\(\&quot;subclass\'s function method with the sucessfull return\!\&quot;\)\;\n\/\/     \}\n\/\/ \}\n\nvar Application \= function \(\) \{\n\n\}\n\nvar Application \= \{\n    run \: function \(\) \{\n        return \'System is running\.\'\;\n    \}\,\n    doSomething \: function \(\) \{\n        \/\/return \&quot;This is a AbstractClass\'s function method for testing\.\&quot;\n        return  \'ok\'\;\n    \}\n\}\;\n\n\n\n\n\nApplication\.prototype \= Object\.create\(AbstractClass\.prototype\)\;\nApplication\.prototype\.constructor \= Application\;\n\n\n\/\/var sys \= new System\(\{\'name\'\: \'sys001\'\, type\: \'sys\'\, data\: \[\]\}\)\;\n\n\(function \(\) \{\n    \/\/ 系统开始运行时间\n    console\.time\(\'system\'\)\;\n\n    \/\/ var abstractClass \= new AbstractClass\(\)\;\n    \/\/ console\.info\(abstractClass\.initialize\(\)\)\;\n    \/\/ console\.info\(System\.prototype\.initialize\(\)\)\;\n    \/\/ console\.info\(AbstractClass\.prototype\.doSomething\(\)\)\;\n\n    System\.execute\(\)\;\n    \/\/ 系统结束运行时间\n    console\.timeEnd\(\'system\'\)\;\n\}\)\(\)\n</find>
+      <find>initialize</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -3225,9 +3225,9 @@
         <option value="$PROJECT_DIR$/src/public/static/script/core/const.js" />
         <option value="$PROJECT_DIR$/src/public/static/script/index.js" />
         <option value="$PROJECT_DIR$/src/public/static/script/core/function.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/core/system.js" />
         <option value="$PROJECT_DIR$/src/public/static/script/core/helper.js" />
         <option value="$PROJECT_DIR$/src/public/static/script/core/base.js" />
+        <option value="$PROJECT_DIR$/src/public/static/script/core/system.js" />
       </list>
     </option>
   </component>
@@ -3322,10 +3322,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1922" />
-    <option name="height" value="1029" />
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -3365,7 +3364,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3416,6 +3414,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -3589,12 +3588,13 @@
       <workItem from="1502950921485" duration="1180000" />
       <workItem from="1503130338663" duration="12000" />
       <workItem from="1503247485941" duration="6602000" />
-      <workItem from="1503291883569" duration="44390000" />
+      <workItem from="1503291883569" duration="45142000" />
+      <workItem from="1503379529794" duration="17559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140383000" />
+    <option name="totallyTimeSpent" value="158694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3606,12 +3606,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="993" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3929,34 +3930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17727">
-          <caret line="933" column="5" lean-forward="false" selection-start-line="933" selection-start-column="0" selection-end-line="933" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3838">
-          <caret line="202" column="16" lean-forward="false" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1364" column="3" lean-forward="true" selection-start-line="1364" selection-start-column="3" selection-end-line="1364" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="362" column="15" lean-forward="false" selection-start-line="362" selection-start-column="6" selection-end-line="362" selection-end-column="15" />
+        <state relative-caret-position="25916">
+          <caret line="1364" column="3" lean-forward="false" selection-start-line="1364" selection-start-column="3" selection-end-line="1364" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -3969,14 +3946,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/static/script/core/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/static/script/core/function.js" />
     <entry file="file://$PROJECT_DIR$/src/public/static/script/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -3995,10 +3965,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/static/script/core/system.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="933" column="5" lean-forward="false" selection-start-line="933" selection-start-column="0" selection-end-line="933" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="101" column="12" lean-forward="false" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -4015,8 +4001,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/public/static/script/core/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="91" column="12" lean-forward="false" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="12" />
+        <state relative-caret-position="1539">
+          <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/static/script/core/system.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="85" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>

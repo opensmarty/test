@@ -10,22 +10,21 @@
 // 错误级别
 var ERROR_LEVEL = ['log', 'info', 'error', 'warn', 'time', 'timeEnd', 'trace', 'debug'];
 function cmd() {
-    if(arguments.length < 1){
+    if (arguments.length < 1) {
         console.warn('参数未定义！\n');
         return false;
     }
     var message = arguments[0];
-    var level =  arguments[1];
-    if(level == '' || level == null || typeof(value) == "undefined") level = "log";
+    var level = arguments[1];
+    if (level == '' || level == null || typeof(value) == "undefined") level = "log";
 
-    if(ERROR_LEVEL.indexOf(level) > -1){
-        eval('console.' + level + '(\'' + message  + '\\n\')');
+    if (ERROR_LEVEL.indexOf(level) > -1) {
+        eval('console.' + level + '(\'' + message + '\\n\')');
     }
 
 }
 
 cmd('Welcome to use javascripts application for everyone！');
-
 
 /*
  * 返回信息格式　{success:true|false, data:[]|{} [, "code":, type:, "message":]}
