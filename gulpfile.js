@@ -47,7 +47,7 @@ var notify = require('gulp-notify');
 
 var buffer = require('vinyl-buffer');
 
-// include 文件用
+// lib 文件用
 var fileinclude = require('gulp-file-include');
 
 //替换变量以及动态html用

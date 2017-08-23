@@ -1,3 +1,2 @@
-###npm install jquery
+#　系统根目录
 
-###npm install bootstrap@3
