@@ -3156,7 +3156,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/../learnlaravel5/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -3309,7 +3308,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../1123" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -3321,19 +3320,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/public/asset/js/lib" />
-      <recent name="$PROJECT_DIR$/src/public/asset/js/common" />
-      <recent name="$PROJECT_DIR$/src/public/asset/tpl" />
-      <recent name="$PROJECT_DIR$/src/public/upload" />
-      <recent name="$PROJECT_DIR$/src/public/asset" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/public/asset/js" />
       <recent name="$PROJECT_DIR$/src/public/asset/js/common" />
       <recent name="$PROJECT_DIR$/src/public/static/script/core" />
       <recent name="$PROJECT_DIR$/../learnlaravel5/app/Models" />
       <recent name="$PROJECT_DIR$/../learnlaravel5/app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/public/asset/js/lib" />
+      <recent name="$PROJECT_DIR$/src/public/asset/js/common" />
+      <recent name="$PROJECT_DIR$/src/public/asset/tpl" />
+      <recent name="$PROJECT_DIR$/src/public/upload" />
+      <recent name="$PROJECT_DIR$/src/public/asset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3474,7 +3473,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176347000" />
+    <option name="totallyTimeSpent" value="176361000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3611,13 +3610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/../learnlaravel5/vendor/laracasts/generators/src/GeneratorsServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -3702,16 +3695,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/public/static/script/core/helper.js" />
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/src/public/static/script/core/system.js" />
     <entry file="file://$PROJECT_DIR$/src/public/static/script/index.js" />
     <entry file="file://$PROJECT_DIR$/config.js" />
@@ -3737,7 +3721,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -3748,7 +3731,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -3759,7 +3741,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="228">
             <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -3770,7 +3751,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -3781,7 +3761,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -3792,7 +3771,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -3802,9 +3780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3812,7 +3787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3820,7 +3794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3828,7 +3801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3836,7 +3808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3844,7 +3815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3852,7 +3822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
