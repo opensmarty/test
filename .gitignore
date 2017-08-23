@@ -1,4 +1,18 @@
+#Git忽略规则及.gitignore规则不生效的解决办法
+# 此为注释 – 将被 Git 忽略
+# *.a       忽略所有 .a 结尾的文件
+# !lib.a    但 lib.a 除外
+# /TODO     仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO
+# build/    忽略 build/ 目录下的所有文件
+# doc/*.txt 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
+#
+# git rm -r --cached .
+# git add .
+# git commit -m 'update .gitignore'
+#
+# 上面都是忽略实例及忽略失效的解决办法.
+
 .DS_Store
-.idea/
+#.idea/
 .git/
-node_modules/
+#node_modules/
