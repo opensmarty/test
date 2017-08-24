@@ -6,7 +6,9 @@
       <w>fileinclude</w>
       <w>gulpif</w>
       <w>imagemin</w>
+      <w>livereload</w>
       <w>minifycss</w>
+      <w>sudo</w>
       <w>uglify</w>
       <w>webserver</w>
     </words>
