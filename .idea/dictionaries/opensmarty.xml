@@ -3,11 +3,15 @@
     <words>
       <w>addsrc</w>
       <w>autoprefixer</w>
+      <w>cssmin</w>
       <w>fileinclude</w>
       <w>gulpif</w>
       <w>imagemin</w>
+      <w>javascrit</w>
       <w>livereload</w>
       <w>minifycss</w>
+      <w>opensmarty</w>
+      <w>scss</w>
       <w>sudo</w>
       <w>uglify</w>
       <w>webserver</w>
