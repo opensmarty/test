@@ -3028,62 +3028,18 @@
     <favorites_list name="test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="291" column="14" lean-forward="false" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".jshintrc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/.jshintrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Use</find>
-      <find>User</find>
-      <find>debug</find>
-      <find>String</find>
-      <find>\/\*\*\n \*\n \* \@authors opensmarty \(opensmarty\@163\.com\)\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\nvar o \= null\;\nif \(o \!\=\= null\) \{\n    o \= null\;\n\}\n\nfunction cmd\(o\) \{\n    console\.log\(o\)\;\n\}\n\ncmd\(\'Welcome to use javascript\\\'s application for everyone\！\\n\'\)\;\n\n\/\/\　for\(key in object\) 与forEach\(function\(\)\{\}\) 两者用法\n\nvar a1 \= \[\'first\'\, \'second\'\, \, \'fourth\'\]\;\n\n\/\/ \#1\nfor \(var key in a1\) \{\n    var ele \= a1\[key\]\;\n    \/\/cmd\(ele\)\;\n\}\n\na1\.forEach\(function\(ele\) \{\n    \/\/cmd\(ele\)\;\n\}\)\;\n\n\/\/ \#2\nvar a2 \= a1\.map\(function\(ele\) \{\n    return ele\.toUpperCase\(\)\;\n\}\)\;\n\n\/\/ \#3\nvar a1 \=  \[\'a\'\, 10\, \'b\'\, 20\, \'c\'\, 30\]\;\nvar a2 \= a1\.filter\(function\(ele\)\{\n    return typeof ele \=\= \'number\'\;\n\}\)\;\n\nfunction isNumber\(val\) \{\n    return typeof val  \=\= \'number\'\;\n\}\n\n\/\/cmd\(a2\)\;</find>
-      <find>\/\*\*\n \* Created a base class for this system\.\n \*\n \* \@package base\n \* \@authors opensmarty \(opensmarty\@\n \* \@github  https\:\/\/github\.com\/opensmarty\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\nvar o \= null\;\nif \(o \!\=\= null\) \{\n    o \= null\;\n\}\n\nfunction cmd\(o\) \{\n    console\.log\(o\)\;\n\}\n\ncmd\(\'Welcome to use javascript\\\'s application for everyone\！\\n\'\)\;\n\nvar root \= typeof self \=\= \'object\' \&amp;\&amp; self\.self \=\=\= self \&amp;\&amp; self \|\| typeof global \=\= \'object\' \&amp;\&amp; global\.global \=\=\= global \&amp;\&amp; global \|\| this\;\n\n\/\/ 系统默认是浏览器端\nvar isBrowserSide \= true\;\nvar root \= this\;\nfunction checkSystemEnvironment \(\) \{\n    isBrowserSide\=false\;\n    if\(typeof window \!\=\=\&quot;undefined\&quot; \&amp;\&amp; root\=\=\=window\)\{\n        isBrowserSide\=true\;\n    \}\n\n    return isBrowserSide\;\n\}</find>
-      <find>code</find>
-      <find>\/\*\*\n \* Created a base class for this system\.\n \*\n \* \@package base\n \* \@authors opensmarty \(opensmarty\@\n \* \@github  https\:\/\/github\.com\/opensmarty\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\nvar o \= null\;\nif \(o \!\=\= null\) \{\n    o \= null\;\n\}\n\nfunction cmd\(o\) \{\n    console\.log\(o\)\;\n\}\n\ncmd\(\'Welcome to use javascript\\\'s application for everyone\！\\n\'\)\;\n\n\n\/\*\n \* 返回信息格式\　\{success\:true\|false\, data\:\[\]\|\{\} \[\, \&quot;code\&quot;\:\, type\:\, \&quot;message\&quot;\:\]\}\n \*\n \*  统一格式\：A\-BB\-CCC\n \* A\:错误级别\，如1代表系统级错误\，2代表服务级错误\；\n \* B\:项目或模块名称\，一般公司不会超过99个项目\；\n \* C\:具体错误编号\，自增即可\，一个项目999种错误应该够用\；\n \*\/\nvar statusWithSys \= \[\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 100001\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;System error \| 系统错误\&quot;\}\,\n    \{\&quot;success\&quot;\: true\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 101200\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;Success\｜请求成功\&quot;\}\,\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 101400\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;Client Error \| 请求错误\&quot;\}\,\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 101401\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot; \| 操作未授权\&quot;\}\,\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 101501\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;Server Error \| 服务器错误 \&quot;\}\,\n    \{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 200001\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;Login Error \| 登录失败\&quot;\}\n\]\;\n\n\nfunction output\(\) \{\n    var message \= \'\'\;\n    var code \= 101501\;\n    var hasCode \= false\;\n    if \(arguments\.length \&gt; 0\) \{\n        code \= arguments\[0\]\[\&quot;code\&quot;\]\;\n        for\(index in  statusWithSys\) \{\n          if\(statusWithSys\[index\]\[\&quot;code\&quot;\] \=\= code\)\{\n                cmd\(\&quot;code\:\&quot; \+ code \+ \'\\n\' \+ statusWithSys\[index\]\[\'message\'\]\)\;\n                hasCode \= true\;\n          \}\n        \}\n\n        if\(\!hasCode\) \{\n            message \= \&quot;没信息\，自定义用户错误\&quot;\;\n        \}\n    \}\n\}\n\n\/\/ 系统默认root全局变量\nvar root \= typeof self \=\= \'object\' \&amp;\&amp; self\.self \=\=\= self \&amp;\&amp; self \|\| typeof global \=\= \'object\' \&amp;\&amp; global\.global \=\=\= global \&amp;\&amp; global \|\| this\;\n\n\/\/ 检测系统环境变量\nfunction checkSystemEnvironment\(\) \{\n\n\}\n\n\/\/ 是否是浏览器端\nfunction isServer\(\) \{\n    return \!isBrowser\(\)\;\n\}\n\nfunction isBrowser\(\) \{\n    var flag \= false\;\n    if \(typeof window \!\=\= \&quot;undefined\&quot; \&amp;\&amp; root \=\=\= window\) \{\n        flag \= true\;\n    \}\n\n    return flag\n\}\n\nif\(isServer\(\)\) \{\n    output\(\{\&quot;success\&quot;\: false\, \&quot;data\&quot;\: \[\]\, \&quot;code\&quot;\: 100001\, \&quot;type\&quot;\: \&quot;application\/json\&quot;\, \&quot;message\&quot;\: \&quot;System error \| 系统错误\&quot;\}\)\;\n\}\n\n\nfunction response\(\) \{\n\n\}</find>
-      <find>output</find>
-      <find>cmd</find>
-      <find>isExtensible</find>
-      <find>isExtensibl</find>
       <find>isExtensib</find>
       <find>\/\*\*\n \* Created a system class for execution\.\n \*\n \* \@package system\n \* \@authors opensmarty \(opensmarty\@163\.com\)\n \* \@github  https\:\/\/github\.com\/opensmarty\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\n\n\/\/ create a abstract class as supper class\.\nfunction AbstractClass\(\) \{\n\n\}\n\nAbstractClass\.prototype \= \{\n    constructor\: AbstractClass\,\n    type\: \'abstract\'\,\n    demo\: function \(\) \{\n        return \'demo\'\;\n    \}\,\n    doSomething\: function \(\) \{\n        \/\/return \&quot;This is a AbstractClass\'s function method for testing\.\&quot;\n        return  \'ok\'\;\n    \}\n\}\;\n\n\/\/ create a sys class for executing everything\.\n\/\/ var System \= function \(\) \{\n\/\/     this\.name \= arguments\[\'0\'\]\.name\;\n\/\/     this\.type \= arguments\[\'0\'\]\.type\;\n\/\/     this\.data \= arguments\[\'0\'\]\.data\;\n\/\/\n\/\/     \/\/ this\.initialize \= function \(\) \{\n\/\/     \/\/     return \'init\'\;\n\/\/     \/\/     \/\/ super\.initialize\(\)\;\n\/\/     \/\/ \}\n\/\/\n\/\/     this\.execute \= function \(\) \{\n\/\/         this\.beforeExecute\(\)\;\n\/\/         this\.doExecute\(\)\;\n\/\/         this\.afterExecute\(\)\;\n\/\/     \}\n\/\/\n\/\/     this\.beforeExecute \= function \(\) \{\n\/\/         return 1\;\n\/\/     \}\n\/\/\n\/\/     this\.doExecute \= function \(\) \{\n\/\/         return 2\;\n\/\/     \}\n\/\/\n\/\/     this\.afterExecute \= function \(\) \{\n\/\/          return 3\;\n\/\/     \}\n\/\/\n\/\/     \/\/\　系统返回\n\/\/     this\.doSomething \= function \(\) \{\n\/\/         \/\/this\.initialize\(\)\;\n\/\/         console\.info\(\&quot;subclass\'s function method with the sucessfull return\!\&quot;\)\;\n\/\/     \}\n\/\/ \}\n\nvar Application \= function \(\) \{\n\n\}\n\nvar Application \= \{\n    run \: function \(\) \{\n        return \'System is running\.\'\;\n    \}\,\n    doSomething \: function \(\) \{\n        \/\/return \&quot;This is a AbstractClass\'s function method for testing\.\&quot;\n        return  \'ok\'\;\n    \}\n\}\;\n\n\n\n\n\nApplication\.prototype \= Object\.create\(AbstractClass\.prototype\)\;\nApplication\.prototype\.constructor \= Application\;\n\n\n\/\/var sys \= new System\(\{\'name\'\: \'sys001\'\, type\: \'sys\'\, data\: \[\]\}\)\;\n\n\(function \(\) \{\n    \/\/ 系统开始运行时间\n    console\.time\(\'system\'\)\;\n\n    \/\/ var abstractClass \= new AbstractClass\(\)\;\n    \/\/ console\.info\(abstractClass\.initialize\(\)\)\;\n    \/\/ console\.info\(System\.prototype\.initialize\(\)\)\;\n    \/\/ console\.info\(AbstractClass\.prototype\.doSomething\(\)\)\;\n\n    System\.execute\(\)\;\n    \/\/ 系统结束运行时间\n    console\.timeEnd\(\'system\'\)\;\n\}\)\(\)\n</find>
       <find>\/\*\*\n \* Created a system class for execution\.\n \*\n \* \@package system\n \* \@authors opensmarty \(opensmarty\@163\.com\)\n \* \@github  https\:\/\/github\.com\/opensmarty\n \* \@date    2017\-08\-20 23\:23\:38\n \* \@version v1\.0\.0\n \*\/\n\n\/\/ create a construct function for the system\.\nfunction Engine\(\) \{\n\}\n\n\/\/ create a useful prototype of Engine as supper class\.\nEngine\.prototype \= \{\n    constructor\: Engine\,\n    name\: \'起源引擎\'\,\n    type\: \'engine\'\,\n    description\: \'System Service\'\,\n    execute\: function \(\) \{\n        this\.beforeExecute\(\)\;\n        this\.doExecute\(\)\;\n        this\.afterExecute\(\)\;\n        this\.doSomething\(\)\;\n    \}\,\n    beforeExecute\: function \(\) \{\n        console\.log\(\'beforeExe\'\)\;\n    \}\,\n    doExecute \: function \(\) \{\n        console\.log\(\'doExe\'\)\;\n    \}\,\n    afterExecute \: function \(\) \{\n        console\.log\(\'afterExe\'\)\;\n    \}\,\n    extra \: function \(\) \{\n        \n    \}\,\n    doSomething \: function \(\) \{\n        return \&quot;This is a \&quot; \+ this\.description \+ \&quot; for us to do something\.\&quot;\;\n    \}\n\}\;\n\n\/\/ create a System for executing everything\.\nvar System \= function \(\) \{\n    \/\/ 系统名称\n    this\.name \= \'欧鹏斯玛特系统\'\;\n    \/\/ 系统运行数据\n    this\.data \= arguments\;\n\n    this\.initialize \= function \(\) \{\n        console\.log\(\'Initialize system\'\)\;\n    \}\n\n    \/\/ 系统启动器\n    this\.enableLauncher \= function \(\) \{\n        this\.initialize\(\)\;\n        this\.execute\(\)\;\n        return JSON\.stringify\(this\.data\)\;\n    \}\n\}\n\n\/\/ System\.prototype \= Object\.create\(Engine\.prototype\)\;\nSystem\.prototype \= Engine\.prototype\;\nSystem\.prototype\.constructor \= System\;\nSystem\.prototype\.extra \= function \(\) \{\n\n\}\n\n\/\/ create a Application and run it\.\nvar Application \= \{\n    name\: \'应用系统\'\,\n    type\: \'app\'\,\n    run\: function \(\) \{\n        var SystemInstance \= new System\(\)\;\n        SystemInstance\.enableLauncher\(\)\;\n    \}\n\}\;\n\n\/\/ 系统运行模块\n\(function \(\) \{\n    \/\/ 系统开始运行时间\n    console\.time\(\'system\'\)\;\n\n    \/\/ 系统测试\.\n    console\.info\(Object\.getOwnPropertyNames\(System\)\)\;\n\n    \/\/ 应用系统运行\n    Application\.run\(\)\;\n\n    \/\/ 系统结束运行时间\n    console\.timeEnd\(\'system\'\)\;\n\}\)\(\)\n</find>
@@ -3102,10 +3058,28 @@
       <find>html</find>
       <find>htmlmin</find>
       <find>minifycss</find>
+      <find>fileinclude</find>
+      <find>dirname</find>
+      <find>web</find>
+      <find>clean</find>
+      <find>true</find>
+      <find>cleanm</find>
+      <find>app</find>
+      <find>NODE_ROOT</find>
+      <find>prod</find>
+      <find>images</find>
+      <find>APP_PATH</find>
+      <find>img</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>&quot;code&quot;</replace>
+      <replace>path</replace>
+      <replace>NODE_ROOT</replace>
+      <replace>APP_PATH</replace>
+      <replace>dev</replace>
+      <replace>WEB_PATH</replace>
+      <replace>images</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../learnlaravel5</dir>
@@ -3117,57 +3091,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../learnlaravel5/app/Http/Requests/Request.php" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/../learnlaravel5/config/app.php" />
-        <option value="$PROJECT_DIR$/src/public/js/index.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/const.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/demo.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/base.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/system.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/core/demo.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/core/const.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/index.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/core/function.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/core/helper.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/core/base.js" />
-        <option value="$PROJECT_DIR$/src/public/static/script/core/system.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/config.js" />
-        <option value="$PROJECT_DIR$/source/public/README.md" />
-        <option value="$PROJECT_DIR$/source/public/gulpfile.js" />
-        <option value="$PROJECT_DIR$/source/public/.gitignore" />
-        <option value="$PROJECT_DIR$/src/public/asset/READED.md" />
-        <option value="$PROJECT_DIR$/src/public/upload/READED.md" />
-        <option value="$PROJECT_DIR$/READED.md" />
-        <option value="$PROJECT_DIR$/vendor/READED.md" />
-        <option value="$PROJECT_DIR$/src/public/widget/demo/README.md" />
-        <option value="$PROJECT_DIR$/src/public/asset/js/lib/lib.js" />
-        <option value="$PROJECT_DIR$/src/public/main.js" />
-        <option value="$PROJECT_DIR$/src/public/package.json" />
-        <option value="$PROJECT_DIR$/src/public/fileconfig.js" />
-        <option value="$PROJECT_DIR$/src/public/config.js" />
-        <option value="$PROJECT_DIR$/src/public/test/module/main.js" />
-        <option value="$PROJECT_DIR$/src/public/test/module/example.js" />
         <option value="$PROJECT_DIR$/src/public/gulp/config.js" />
         <option value="$PROJECT_DIR$/src/public/gulpfile.js" />
-        <option value="$PROJECT_DIR$/public/package.json" />
         <option value="$PROJECT_DIR$/public/.jshintrc" />
         <option value="$PROJECT_DIR$/public/src/js/utils/demo.js" />
         <option value="$PROJECT_DIR$/public/src/js/helpers/helper.js" />
-        <option value="$PROJECT_DIR$/public/webpack.config.js" />
         <option value="$PROJECT_DIR$/public/gulpfile-v1.0.0.js" />
-        <option value="$PROJECT_DIR$/public/src/main.js" />
         <option value="$PROJECT_DIR$/public/dist/html/index.html" />
         <option value="$PROJECT_DIR$/public/test/READED.md" />
         <option value="$PROJECT_DIR$/public/test/gulpfile-v1.0.0.js" />
-        <option value="$PROJECT_DIR$/public/gulpfile.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/READED.md" />
         <option value="$PROJECT_DIR$/build/bin/READED.md" />
         <option value="$PROJECT_DIR$/public/src/swf/READED.md" />
         <option value="$PROJECT_DIR$/public/src/css/READED.md" />
         <option value="$PROJECT_DIR$/public/src/font/READED.md" />
+        <option value="$PROJECT_DIR$/public/src/bar.js" />
+        <option value="$PROJECT_DIR$/public/src/app.js" />
+        <option value="$PROJECT_DIR$/public/src/main.js" />
+        <option value="$PROJECT_DIR$/public/main.js" />
+        <option value="$PROJECT_DIR$/public/webpack.config.js" />
+        <option value="$PROJECT_DIR$/public/src/index.html" />
+        <option value="$PROJECT_DIR$/public/gulpfile.js" />
+        <option value="$PROJECT_DIR$/public/.jshintignore" />
+        <option value="$PROJECT_DIR$/public/package.json" />
+        <option value="$PROJECT_DIR$/public/LENCISE" />
+        <option value="$PROJECT_DIR$/public/LICENSE" />
+        <option value="$PROJECT_DIR$/public/test/gulpfile-demo.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gulp/util/notfy.js" />
+        <option value="$PROJECT_DIR$/test/gulpfile-demo.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/test.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/help.js" />
+        <option value="$PROJECT_DIR$/web/tpl/common/footer.html" />
+        <option value="$PROJECT_DIR$/gulp/util/notify.js" />
+        <option value="$PROJECT_DIR$/test/gulpfile-v1.0.1.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/styles.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/watch.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/server.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/gulp/tasks/fonts.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/clean.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/serve.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/images.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/html.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/scripts.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/css.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/scss.js" />
+        <option value="$PROJECT_DIR$/gulp/config.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/release.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/default.js" />
+        <option value="$PROJECT_DIR$/gulp/tasks/build.js" />
       </list>
     </option>
   </component>
@@ -3190,7 +3164,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/../learnlaravel5/node_modules" />
-    <handled-path value="$PROJECT_DIR$/public/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -3311,6 +3285,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="learnlaravel5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="$PROJECT_DIR$/../learnlaravel5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3333,105 +3326,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="learnlaravel5">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="$PROJECT_DIR$/../learnlaravel5">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3441,7 +3337,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../1123" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSHint" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -3451,17 +3347,18 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/src/css" />
-      <recent name="$PROJECT_DIR$/public/src/font" />
-      <recent name="$PROJECT_DIR$/public/src/swf" />
-      <recent name="$PROJECT_DIR$/build/bin" />
-      <recent name="$PROJECT_DIR$/public/test" />
+      <recent name="$PROJECT_DIR$/public/upload" />
+      <recent name="$PROJECT_DIR$/gulp/tasks" />
+      <recent name="$PROJECT_DIR$/web/ui/demo/scss" />
+      <recent name="$PROJECT_DIR$/web/ui/demo/images" />
+      <recent name="$PROJECT_DIR$/web/js/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/test" />
@@ -3607,12 +3504,16 @@
       <workItem from="1503501539895" duration="2036000" />
       <workItem from="1503507098599" duration="39911000" />
       <workItem from="1503639372917" duration="29359000" />
-      <workItem from="1503677722266" duration="9751000" />
+      <workItem from="1503677722266" duration="15580000" />
+      <workItem from="1503722982325" duration="11552000" />
+      <workItem from="1503747131521" duration="35375000" />
+      <workItem from="1503785055865" duration="320000" />
+      <workItem from="1503825779228" duration="25429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255382000" />
+    <option name="totallyTimeSpent" value="333887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3625,14 +3526,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26927084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="99" y="89" width="1722" height="829" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="63" y="52" width="1857" height="965" />
@@ -3642,9 +3542,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="99" y="89" width="1722" height="829" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3659,7 +3559,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26927084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3682,69 +3582,95 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/src/js/helpers/const.js">
+    <entry file="file://$PROJECT_DIR$/web/js/toastr.min.js" />
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/web/js/lib/toastr.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/js/helpers/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/js/utils/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/js/helpers/common.js">
+    <entry file="file://$PROJECT_DIR$/web/js/lib/nprogress.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/test/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/js/main.min.js">
+    <entry file="file://$PROJECT_DIR$/web/js/lib/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/js/main.js">
+    <entry file="file://$PROJECT_DIR$/web/js/lib/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/function () {&#10;  if (!cwd)&#10;    cwd = origCwd.call(process)&#10;  return cwd&#10;}/dist/css/style.min.css" />
-    <entry file="file://$PROJECT_DIR$/public/dist/img/READED.md">
+    <entry file="file://$PROJECT_DIR$/web/tpl/common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tpl/content/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tpl/common/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tpl/common/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tpl/index.tpl" />
+    <entry file="file://$PROJECT_DIR$/web/bar.js" />
+    <entry file="file://$PROJECT_DIR$/web/index.html" />
+    <entry file="file://$PROJECT_DIR$/web/tpl/common/right_col_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tpl/page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/rev-manifest.json" />
+    <entry file="file://$PROJECT_DIR$/gulp/util/notify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ui/demo/scss/READED.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -3754,200 +3680,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/rev/js/js/main-22501b41f6.min.js" />
-    <entry file="file://$PROJECT_DIR$/public/rev/ui/demo/html/demoA.html" />
-    <entry file="file://$PROJECT_DIR$/public/rev/html/index.html" />
-    <entry file="file://$PROJECT_DIR$/public/rev/html/test.html" />
-    <entry file="file://$PROJECT_DIR$/public/rev/js/js/main-0f7be39bf1.js" />
-    <entry file="file://$PROJECT_DIR$/public/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/rev/js/rev-manifest.json" />
-    <entry file="file://$PROJECT_DIR$/public/rev/js/main-7d7a9d0826.min.js" />
-    <entry file="file://$PROJECT_DIR$/public/rev/css/rev-manifest.json" />
-    <entry file="file://$PROJECT_DIR$/public/dist/js/main-3e2f6c32f9.js" />
-    <entry file="file://$PROJECT_DIR$/public/test/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/test/html/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/css/rev-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/css/rev-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/html/index.src.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/html/index.src.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/html/index.max.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/html/index.max.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/rev-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/main-22501b41f6.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gulpfile-v1.0.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="261" column="49" lean-forward="false" selection-start-line="261" selection-start-column="49" selection-end-line="261" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/test/READED.md">
+    <entry file="file://$PROJECT_DIR$/web/scss/READED.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-            <folding />
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/test/gulpfile-v1.0.0.js">
+    <entry file="file://$PROJECT_DIR$/test/gulpfile-demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="276" column="5" lean-forward="false" selection-start-line="267" selection-start-column="18" selection-end-line="276" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state relative-caret-position="1666">
+          <caret line="145" column="35" lean-forward="false" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/public/html/common/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="291" column="14" lean-forward="false" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/public/html/css/rev-manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fonts/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/READED.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="15" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/public/images/rev-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/READED.md">
+    <entry file="file://$PROJECT_DIR$/public/css/rev-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/fonts/READED.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -3958,18 +3762,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/bin/READED.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/READED.md">
+    <entry file="file://$PROJECT_DIR$/web/swf/READED.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -3980,14 +3773,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/swf/READED.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/web/ui/demo/css/common.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/help.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4002,54 +3803,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/READED.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/READED.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/css/READED.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/font/READED.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.jshintrc">
+    <entry file="file://$PROJECT_DIR$/test/gulpfile-v1.0.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="3906">
+          <caret line="278" column="32" lean-forward="false" selection-start-line="278" selection-start-column="32" selection-end-line="278" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main-ce118debbb.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/rev-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main-22501b41f6.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/clean.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/fonts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/serve.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/scss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/release.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="34" column="76" lean-forward="false" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="73" lean-forward="false" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
           <folding />
         </state>
       </provider>
