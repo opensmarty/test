@@ -48,3 +48,4 @@ node_modules
 # 静态文件
 node_modules/
 !public/upload
+dist/
