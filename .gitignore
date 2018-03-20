@@ -42,10 +42,7 @@ npm-debug.log
 # Dependency directory
 node_modules
 
-.idea
-.DS_Store
-
-# 静态文件
-node_modules/
-!public/upload
-dist/
+# 项目一 忽略提交文件
+source/node_modules/
+!source/public/upload
+source/dist/
