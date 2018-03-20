@@ -20,4 +20,7 @@ function reverse_r($str)
     return;
 }
 
+/**
+ * output: !BOJ SIHT EVOL I
+ */
 reverse_r('I LOVE THIS JOB!');

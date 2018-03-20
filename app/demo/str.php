@@ -6,7 +6,9 @@
  * Time: 下午10:21
  */
 
-// hotdogok
+/**
+ * output: hotdogok
+ */
 
 $str = 'cd';
 $$str = 'hotdog';

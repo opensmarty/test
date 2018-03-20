@@ -10,9 +10,15 @@ include ROOT_PATH.'/app/start.php';
 
 // 防止页面乱码.
 header("Content-type: text/html; charset=utf-8");
-$f = $_GET['f'];
-if (!empty($f)) {
-    include APP_PATH . '/demo/' . $f . DEFAULT_EXT;
+if (APP_DEBUG) {
+    output('测试，请在该网址后面输入index.php?f=参数！！！<br>');
+    
+    $f = $_GET['f'];
+    if (! empty($f)) {
+        $demo_path = APP_PATH.'/demo/'.$f.DEFAULT_EXT;
+        output('Method: '.$f.'<br>');
+        include $demo_path;
+    }
 }
-output('测试，请在该网址后面输入index.php?f=参数！！！');
+
 

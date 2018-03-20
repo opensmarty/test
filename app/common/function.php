@@ -6,9 +6,11 @@
  * Time: 下午8:33
  */
 
-function output($result, $type = 'json')
+function output ($result, $type = 'json')
 {
-    if (is_array($result)) {
+    if (is_bool($result)) {
+        var_dump($result);
+    } elseif (is_array($result)) {
         if ($type == 'dump') {
             var_dump($result);
         } elseif ($type == 'json') {
