@@ -5,30 +5,8 @@
  * Date: 18-3-13
  * Time: 下午8:29
  */
-// 唯一全局函数。
-function is_empty ( $param )
-{
-    return empty($param);
-}
-
-// 模拟GET请求
-function curl_get ( $url )
-{
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    //参数为1表示传输数据，为0表示直接输出显示。
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    //参数为0表示不带头文件，为1表示带头文件
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    $result = curl_exec($ch);
-    curl_close($ch);
-    
-    return $result;
-}
-
-// 设置错误报告。
-ini_set('display_errors', 0); // 设置为0可避免显示重复的错误提示。
-error_reporting(E_ALL);
+define('ROOT_PATH', dirname(dirname(__FILE__)));
+require_once ROOT_PATH.'/app/common/common.php';
 
 // 设置模拟HTTP请求的参数。
 if (! isset($argv[1])) {

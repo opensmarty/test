@@ -20,5 +20,3 @@ if (APP_DEBUG) {
         include $demo_path;
     }
 }
-
-
