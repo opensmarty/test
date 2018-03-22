@@ -46,3 +46,6 @@ node_modules
 source/node_modules/
 !source/public/upload
 source/dist/
+
+# 项目一 忽略提交文件
+source_v1/Application/Runtime

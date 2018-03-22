@@ -2,241 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30d1cb65-bc8c-4c8a-b9bb-cc174c746f9f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/5f3fdde3154e571d54c6cb09884d723894203855/style.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_animated.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_bordered-pulled.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_core.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_fixed-width.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_icons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_larger.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_mixins.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_path.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_rotated-flipped.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_stacked.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/_variables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/86074c3055be146a8545675ee95fe7aca2f313fa/font-awesome.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/909fe20c126bed06a55906d31c61ce9f62642ed6/app.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/db604ca7912397d5d0717130cfd7bae598df0102/common.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/common/common.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/common/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/common/function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/demo/isempty.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/demo/multiply.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/demo/phpinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/demo/preg_match.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/demo/reverse_r.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/demo/str.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/demo/str1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/demo/xsswcs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/start.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/bin/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/bin/install.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/webpack.production.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/clean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/fonts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/images.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/release.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/scss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/serve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/tasks/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/util/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/util/notify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.phpintel/6f1f639136671bba2d9c5af6b008be04" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.phpintel/index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/common/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/common/css/stylus.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/common/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/common/js/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/common/js/test2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/upload/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/apis/index/api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/index/index.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mock/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mock/index/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/index/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/index/index.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/index/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/index/index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/index/index.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/index/vue-tutorial-2-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/_reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/vuex/store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/css/nprogress.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/css/toastr.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/font-awesome.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/fonts/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/back_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/back_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/back_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/forward_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/forward_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/forward_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/gulp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/images/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/js/nprogress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/js/toastr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/scss/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/scss/app.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/scss/app.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/tpl/common/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/tpl/common/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/tpl/common/left_col.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/tpl/common/navigation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/tpl/common/right_col_footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/tpl/content/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulp-demos/demo/tpl/page/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulpfile-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulpfile-v1.0.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gulpfile-v1.0.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/html/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/html/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/module/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/webpack.demo.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/nprogress.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/toastr.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/fonts/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/back_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/back_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/back_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/forward_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/forward_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/forward_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/gulp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/helpers/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/helpers/const.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/helpers/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/lib/lib.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/system.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/utils/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/scss/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/scss/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/scss/app.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/scss/app.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/swf/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/tpl/common/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/tpl/common/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/tpl/common/left_col.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/tpl/common/navigation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/tpl/common/right_col_footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/tpl/content/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/tpl/page/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/ui/demo/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/ui/demo/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/ui/demo/css/common.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/ui/demo/css/common.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/ui/demo/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/ui/demo/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/ui/demo/scss/READED.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/ui/demo/tpl/index.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config-v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.production.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/demo/memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/demo/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source_v2/READED.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source_v3/READED.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/READED.md" afterPath="$PROJECT_DIR$/source/READED.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/common/common.php" afterPath="$PROJECT_DIR$/source/app/common/common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/common/function.php" afterPath="$PROJECT_DIR$/source/app/common/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/public/index.php" afterPath="$PROJECT_DIR$/source/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source_v1/index.php" afterPath="$PROJECT_DIR$/source_v1/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -247,7 +23,127 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/demo/session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/common/common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_superglobals.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="128" column="21" lean-forward="false" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThinkPHP.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/ThinkPHP.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmd.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/public/cmd.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_v1/Application/Common/Conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/Common/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/common/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <marker date="1521722417872" expanded="true" signature="281:367" ph="..." />
+                <marker date="1521722417872" expanded="true" signature="337:367" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_v1/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <marker date="1521566692414" expanded="true" signature="0:297" ph="&lt;IfModule mod_rewrite.c&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>argv</find>
+      <find>SCRIPT_NAME</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -270,7 +166,21 @@
         <option value="$PROJECT_DIR$/app/demo/str1.php" />
         <option value="$PROJECT_DIR$/app/demo/preg_match.php" />
         <option value="$PROJECT_DIR$/app/demo/xsswcs.php" />
+        <option value="$PROJECT_DIR$/source/READED.md" />
+        <option value="$PROJECT_DIR$/source_v2/READED.md" />
+        <option value="$PROJECT_DIR$/source_v3/READED.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/source_v1/Application/Home/index.html" />
+        <option value="$PROJECT_DIR$/source_v1/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/source_v1/.htaccess" />
+        <option value="$PROJECT_DIR$/source_v1/index.php" />
+        <option value="$PROJECT_DIR$/source_v1/Application/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/source/app/demo/memcache.php" />
+        <option value="$PROJECT_DIR$/source/app/demo/session.php" />
+        <option value="$PROJECT_DIR$/source/app/common/common.php" />
+        <option value="$PROJECT_DIR$/source/app/common/function.php" />
+        <option value="$PROJECT_DIR$/source/public/index.php" />
+        <option value="$PROJECT_DIR$/source/public/cmd.php" />
       </list>
     </option>
   </component>
@@ -330,6 +240,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -352,14 +264,84 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="source_v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,7 +351,13 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/source_v2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source_v1" />
+      <recent name="$PROJECT_DIR$/source_v1/Public" />
       <recent name="$PROJECT_DIR$/app/demo" />
       <recent name="$PROJECT_DIR$/app/test" />
     </key>
@@ -486,18 +474,22 @@
       <workItem from="1521484545844" duration="1315000" />
       <workItem from="1521542566663" duration="2338000" />
       <workItem from="1521552766741" duration="1376000" />
-      <workItem from="1521556064161" duration="479000" />
+      <workItem from="1521556064161" duration="10215000" />
+      <workItem from="1521608303603" duration="358000" />
+      <workItem from="1521620274129" duration="16523000" />
+      <workItem from="1521693964372" duration="15447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27609000" />
+    <option name="totallyTimeSpent" value="69673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27050054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21458998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -526,47 +518,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/common/config.php" />
-    <entry file="file://$PROJECT_DIR$/app/common/common.php" />
-    <entry file="file://$PROJECT_DIR$/app/start.php" />
-    <entry file="file://$PROJECT_DIR$/public/index.php" />
-    <entry file="file://$PROJECT_DIR$/app/common/function.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/str.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/str1.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/reverse_r.php" />
-    <entry file="file://$PROJECT_DIR$/app/common/config.php" />
-    <entry file="file://$PROJECT_DIR$/app/common/common.php" />
-    <entry file="file://$PROJECT_DIR$/app/start.php" />
-    <entry file="file://$PROJECT_DIR$/app/common/function.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/str.php" />
-    <entry file="file://$PROJECT_DIR$/public/index.php" />
-    <entry file="file://$PROJECT_DIR$/webpack.config-v1.js" />
-    <entry file="file://$PROJECT_DIR$/.babelrc" />
-    <entry file="file://$PROJECT_DIR$/app/common/const.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/start.php" />
-    <entry file="file://$PROJECT_DIR$/app/common/common.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/isempty.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/reverse_r.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/multiply.php" />
-    <entry file="file://$PROJECT_DIR$/app/common/config.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/str1.php" />
-    <entry file="file://$PROJECT_DIR$/public/index.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/str.php" />
-    <entry file="file://$PROJECT_DIR$/app/common/function.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/preg_match.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/phpinfo.php" />
-    <entry file="file://$PROJECT_DIR$/app/demo/xsswcs.php" />
     <entry file="file://$PROJECT_DIR$/doc/READED.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -594,11 +551,199 @@
     <entry file="file://$PROJECT_DIR$/doc/thinkphp_3.2.3_full/ThinkPHP/Common/functions.php" />
     <entry file="file://$PROJECT_DIR$/public/.htaccess" />
     <entry file="file://$PROJECT_DIR$/doc/thinkphp_3.2.3_full/ThinkPHP/Library/Org/Net/Http.class.php" />
+    <entry file="file://$PROJECT_DIR$/source_v2/READED.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="627">
+            <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/READED.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v3/READED.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/Home/Controller/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/Home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/Home/View/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="950">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <marker date="1521566692414" expanded="true" signature="0:297" ph="&lt;IfModule mod_rewrite.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/Admin/Common/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/Library/Org/Net/Http.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/Library/Org/Util/ArrayList.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/Lang/en-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/Library/Think/App.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/Library/Behavior/AgentCheckBehavior.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/common/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/demo/memcache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/Application/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/ThinkPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,6 +752,71 @@
         <state relative-caret-position="152">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="128" column="21" lean-forward="false" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_v1/ThinkPHP/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <marker date="1521722417872" expanded="true" signature="281:367" ph="..." />
+            <marker date="1521722417872" expanded="true" signature="337:367" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/demo/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/common/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/public/cmd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

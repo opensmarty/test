@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks -Multiviews
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]  #注意：这里是5.6以下使用方式
+  #RewriteRule ^(.*)$ index.php [L,E=PATH_INFO:$1]  #5.6以上版本使用这个
+</IfModule>
